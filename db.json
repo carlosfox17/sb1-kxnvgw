@@ -1,0 +1,277 @@
+{
+  "settings": {
+    "smtp": {
+      "host": "mail.softecangola.net",
+      "port": "466",
+      "secure": true,
+      "username": "carlos@softecangola.net",
+      "password": "Pop@dic17",
+      "fromEmail": "carlos@softecangola.net",
+      "fromName": "GTA"
+    }
+  },
+  "users": [
+    {
+      "id": "1",
+      "name": "Administrador",
+      "email": "admin@sistema.com",
+      "password": "12345678",
+      "role": "admin",
+      "department": "Administração",
+      "active": true,
+      "createdAt": "2024-03-15T00:00:00.000Z"
+    }
+  ],
+  "clients": [
+    {
+      "id": "1",
+      "name": "Empresa ABC",
+      "email": "contato@empresaabc.com",
+      "phone": "(11) 99999-9999",
+      "company": "Empresa ABC Ltda"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "subject": "Bem-vindo ao Sistema",
+      "template": "welcome",
+      "active": true,
+      "content": {
+        "title": "Bem-vindo ao Sistema de Gestão",
+        "body": "Olá {{name}},\n\nSeja bem-vindo ao nosso sistema de gestão de projetos.\n\nAtenciosamente,\nEquipe de Suporte"
+      }
+    },
+    {
+      "id": "2",
+      "subject": "Novo Projeto Criado",
+      "template": "new_project",
+      "active": true,
+      "content": {
+        "title": "Novo Projeto: {{projectName}}",
+        "body": "Olá {{clientName}},\n\nUm novo projeto foi criado para sua empresa:\n\nProjeto: {{projectName}}\nDescrição: {{projectDescription}}\n\nEntraremos em contato em breve com mais detalhes.\n\nAtenciosamente,\nEquipe de Projetos"
+      }
+    }
+  ],
+  "email_logs": [
+    {
+      "id": "1731453927770",
+      "templateId": "smtp_test",
+      "to": "carlosfox1782@gmail.com",
+      "subject": "Teste de Configuração SMTP",
+      "content": "\n        <h2>Teste de Configuração SMTP</h2>\n        <p>Este é um email de teste para validar as configurações SMTP do sistema.</p>\n        <p>Se você recebeu este email, a configuração está funcionando corretamente!</p>\n        <br>\n        <p>Configurações utilizadas:</p>\n        <ul>\n          <li>Servidor: mail.softecangola.net</li>\n          <li>Porta: 465</li>\n          <li>Email do Remetente: carlos@softecangola.net</li>\n        </ul>\n      ",
+      "status": "success",
+      "sentAt": "2024-11-12T23:25:27.770Z"
+    },
+    {
+      "id": "1731453994594",
+      "templateId": "smtp_test",
+      "to": "carlosfox1782@gmail.com",
+      "subject": "Teste de Configuração SMTP",
+      "content": "\n        <h2>Teste de Configuração SMTP</h2>\n        <p>Este é um email de teste para validar as configurações SMTP do sistema.</p>\n        <p>Se você recebeu este email, a configuração está funcionando corretamente!</p>\n        <br>\n        <p>Configurações utilizadas:</p>\n        <ul>\n          <li>Servidor: mail.softecangola.net</li>\n          <li>Porta: 466</li>\n          <li>Email do Remetente: carlos@softecangola.net</li>\n        </ul>\n      ",
+      "status": "success",
+      "sentAt": "2024-11-12T23:26:34.594Z"
+    },
+    {
+      "id": "1731489043745",
+      "templateId": "smtp_test",
+      "to": "carlosfox1782@gmail.com",
+      "subject": "Teste de Configuração SMTP",
+      "content": "",
+      "status": "error",
+      "error": "Greeting never received",
+      "sentAt": "2024-11-13T09:10:43.745Z"
+    },
+    {
+      "id": "1731489138950",
+      "templateId": "smtp_test",
+      "to": "carlosfox1782@gmail.com",
+      "subject": "Teste de Configuração SMTP",
+      "content": "",
+      "status": "error",
+      "error": "Greeting never received",
+      "sentAt": "2024-11-13T09:12:18.950Z"
+    },
+    {
+      "id": "1731489239241",
+      "templateId": "smtp_test",
+      "to": "carlosfox1782@gmail.com",
+      "subject": "Teste de Configuração SMTP",
+      "content": "",
+      "status": "error",
+      "error": "Greeting never received",
+      "sentAt": "2024-11-13T09:13:59.241Z"
+    },
+    {
+      "id": "1731489455498",
+      "templateId": "smtp_test",
+      "to": "carlosfox1782@gmail.com",
+      "subject": "Teste de Configuração SMTP",
+      "content": "",
+      "status": "error",
+      "error": "Greeting never received",
+      "sentAt": "2024-11-13T09:17:35.498Z"
+    },
+    {
+      "id": "1731489471318",
+      "templateId": "smtp_test",
+      "to": "carlosfox1782@gmail.com",
+      "subject": "Teste de Configuração SMTP",
+      "content": "",
+      "status": "error",
+      "error": "Greeting never received",
+      "sentAt": "2024-11-13T09:17:51.318Z"
+    },
+    {
+      "id": "1731489528278",
+      "templateId": "smtp_test",
+      "to": "foxgamer77s@gmail.com",
+      "subject": "Teste de Configuração SMTP",
+      "content": "",
+      "status": "error",
+      "error": "Greeting never received",
+      "sentAt": "2024-11-13T09:18:48.278Z"
+    },
+    {
+      "id": "1731489709829",
+      "templateId": "smtp_test",
+      "to": "carlosfox1782@gmail.com",
+      "subject": "Teste de Configuração SMTP",
+      "content": "",
+      "status": "error",
+      "error": "Greeting never received",
+      "sentAt": "2024-11-13T09:21:49.829Z"
+    },
+    {
+      "id": "1731489929072",
+      "templateId": "smtp_test",
+      "to": "foxgamer77s@gmail.com",
+      "subject": "Teste de Configuração SMTP",
+      "content": "",
+      "status": "error",
+      "error": "Tempo de conexão esgotado ao tentar conectar com mail.softecangola.net:465\nPossíveis causas:\n- Servidor SMTP lento ou indisponível\n- Problemas de rede\n- Firewall bloqueando a conexão",
+      "errorDetails": {
+        "code": "ETIMEDOUT",
+        "command": "CONN"
+      },
+      "provider": "custom",
+      "config": {
+        "host": "mail.softecangola.net",
+        "port": 465,
+        "secure": true
+      },
+      "sentAt": "2024-11-13T09:25:29.072Z"
+    },
+    {
+      "id": "1731489975226",
+      "templateId": "smtp_test",
+      "to": "softecangola@gmail.com",
+      "subject": "Teste de Configuração SMTP",
+      "content": "",
+      "status": "error",
+      "error": "Tempo de conexão esgotado ao tentar conectar com mail.softecangola.net:465\nPossíveis causas:\n- Servidor SMTP lento ou indisponível\n- Problemas de rede\n- Firewall bloqueando a conexão",
+      "errorDetails": {
+        "code": "ETIMEDOUT",
+        "command": "CONN"
+      },
+      "provider": "custom",
+      "config": {
+        "host": "mail.softecangola.net",
+        "port": 465,
+        "secure": true
+      },
+      "sentAt": "2024-11-13T09:26:15.226Z"
+    },
+    {
+      "id": "1731489998143",
+      "templateId": "smtp_test",
+      "to": "softecangola@gmail.com",
+      "subject": "Teste de Configuração SMTP",
+      "content": "",
+      "status": "error",
+      "error": "Tempo de conexão esgotado ao tentar conectar com mail.softecangola.net:465\nPossíveis causas:\n- Servidor SMTP lento ou indisponível\n- Problemas de rede\n- Firewall bloqueando a conexão",
+      "errorDetails": {
+        "code": "ETIMEDOUT",
+        "command": "CONN"
+      },
+      "provider": "custom",
+      "config": {
+        "host": "mail.softecangola.net",
+        "port": 465,
+        "secure": true
+      },
+      "sentAt": "2024-11-13T09:26:38.143Z"
+    },
+    {
+      "id": "1731490164225",
+      "templateId": "smtp_test",
+      "to": "carlosfox1782@gmail.com",
+      "subject": "Teste de Configuração SMTP",
+      "content": "",
+      "status": "error",
+      "error": "Erro: Timeout ao verificar conexão\nPossíveis causas:\n- Configurações SMTP incorretas\n- Servidor de email indisponível\n- Problemas de rede ou DNS\n- Firewall ou proxy bloqueando a conexão",
+      "errorDetails": {},
+      "provider": "custom",
+      "config": {
+        "host": "mail.softecangola.net",
+        "port": 465,
+        "secure": true
+      },
+      "sentAt": "2024-11-13T09:29:24.225Z"
+    },
+    {
+      "id": "1731490387975",
+      "templateId": "smtp_test",
+      "to": "carlosfox1782@gmail.com",
+      "subject": "Teste de Configuração SMTP",
+      "content": "",
+      "status": "error",
+      "error": "Erro: Timeout ao verificar conexão\nPossíveis causas:\n- Configurações SMTP incorretas\n- Servidor de email indisponível\n- Problemas de rede ou DNS\n- Firewall ou proxy bloqueando a conexão",
+      "errorDetails": {},
+      "provider": "custom",
+      "config": {
+        "host": "mail.softecangola.net",
+        "port": 465,
+        "secure": true
+      },
+      "sentAt": "2024-11-13T09:33:07.975Z"
+    },
+    {
+      "id": "1731490397115",
+      "templateId": "smtp_test",
+      "to": "carlosfox1782@gmail.com",
+      "subject": "Teste de Configuração SMTP",
+      "content": "",
+      "status": "error",
+      "error": "Erro: Timeout ao verificar conexão\nPossíveis causas:\n- Configurações SMTP incorretas\n- Servidor de email indisponível\n- Problemas de rede ou DNS\n- Firewall ou proxy bloqueando a conexão",
+      "errorDetails": {},
+      "provider": "custom",
+      "config": {
+        "host": "mail.softecangola.net",
+        "port": 465,
+        "secure": true
+      },
+      "sentAt": "2024-11-13T09:33:17.115Z"
+    },
+    {
+      "id": "1731490520561",
+      "templateId": "smtp_test",
+      "to": "foxgamer77s@gmail.com",
+      "subject": "Teste de Configuração SMTP",
+      "content": "",
+      "status": "error",
+      "error": "Tempo de conexão esgotado ao tentar conectar com mail.softecangola.net:465\nPossíveis causas:\n- Servidor SMTP lento ou indisponível\n- Problemas de rede\n- Firewall bloqueando a conexão",
+      "sentAt": "2024-11-13T09:35:20.561Z"
+    },
+    {
+      "id": "1731490634430",
+      "templateId": "smtp_test",
+      "to": "carlosfox1782@gmail.com",
+      "subject": "Teste de Configuração SMTP",
+      "status": "error",
+      "error": "Tempo de conexão esgotado\nPossíveis causas:\n- Servidor SMTP lento ou indisponível\n- Problemas de rede\n- Firewall bloqueando a conexão",
+      "duration": 5018,
+      "sentAt": "2024-11-13T09:37:14.430Z"
+    }
+  ]
+}
